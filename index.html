@@ -7,17 +7,17 @@
 
 	<nav>
 		<ul>
-			<li>Missions Statement</li>
-			<li>Mission Guides</li>
-			<li>Ares III</li>
-			<li>Equipment</li>
-			<li>Contact</li>
+			<li><a href="#mission_statement">Mission Statement</a></li>
+			<li><a href="#mission_guides">Mission Guides</a></li>
+			<li><a href="ares3.html">Ares III</a></li>
+			<li><a href="#equipment">Equipment</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
-	<header>
+	<header id="top">
 		<h1>Ares Space Program</h1>
-		<img src="AresSpaceProgram.jpg" alt="Ares Space Program Logo">
+		<img src="images/AresSpaceProgram.jpg" alt="Ares Space Program Logo">
 
 		<br />
 		<br />
@@ -31,7 +31,7 @@
 		</p>
 	</header>
 
-	<article>
+	<article id="mission_statement">
 		<h2>Mission Statement</h2>
 		<p>
 			The Ares Space Program represents the best of our aspirations, and its success will forever stand as an unforgettable reminder about what we can achieve with effort, imagination, and teamwork.
@@ -57,9 +57,11 @@
 			Theodore Sanders <br />	
 			<em>Director</em>
 		</p>
+
+		<a href="#top">Back to Top</a>
 	</article>
 
-	<section>
+	<section id="mission_guides">
 		<h2>Mission Guides</h2>
 
 		<article>
@@ -89,14 +91,16 @@
 				Ares IV was the fifth mission to Mars, but the sixth mission in the Ares program. Ares VI was brought forward by Vincent Kappor to NASA's director Teddy Sanders to deliver more satellites to Mars' orbit. Ares VI was not suggested to be a manned mission.
 			</p>
 		</article>
+
+		<a href="#top">Back to Top</a>
 	</section>
-	<section>
+	<section id="equipment">
 		<h2>Equipment</h2>
 
 		<article>
 			<h3>The Hab</h3>
 				<p>
-					While on Mars, the Ares III crew will be living in an artificial habitat, or Hab, for short. Designed for 31-days of use, the Hab will be filled with an array of supplies sent to the planet on fourteen unmanned supply missions. The unit itself is constructed od durable industrial canvas, capable of sheltering its inhabitants from electromagnetic waves to minimize risks from solar radiation exposure.
+					While on Mars, crew members will be living in an artificial habitat, or Hab, for short. Designed for 31-days of use, the Hab will be filled with an array of supplies sent to the planet on fourteen unmanned supply missions. The unit itself is constructed od durable industrial canvas, capable of sheltering its inhabitants from electromagnetic waves to minimize risks from solar radiation exposure.
 				</p>
 				<p>
 					Boasting 92 m2 of floor space, three lab tables, and two airlocks, this unit is the most advanced habitat servicing NASA today. Its state-of-the-art life support sustems are monitored by an automated smart system that actively regulates temperature, oxygen, and water.
@@ -127,22 +131,31 @@
 					However, after the completion of Ares V, the Hermes is currently planned to be retooled and recommissioned as a new Internation Space Station open to astronauts from the world's established and emerging space programs.
 				</p>
 		</article>
+
+		<a href="#top">Back to Top</a>
 	</section>
 
-	<footer>
+	<section id="contact">
+		<h2>Contact</h2>
 		<form name="Questions" action="https://www.httpbin.org" method="post">
 			<fieldset>
+				<br>
 				<div>
-					<label>Ask a Question!</label>
+					<label>Ask a Question!</label><br>
 					<textarea name="textarea" rows="3" cols="50"></textarea>
 				</div>
+				<br>
 				<div>
-					<label>Email</label>
+					<label>Email</label><br>
 					<input type="text" name="user_email">
 				</div>
+				<br>
+
+				<button submit="button">Submit</button>
 			</fieldset>
 		</form>
-	</footer>
+	</section>
 
+	<a href="#top">Back to Top</a>
 </body>
 </html>
