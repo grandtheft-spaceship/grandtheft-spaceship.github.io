@@ -122,6 +122,43 @@ article.mission p {
 	padding: 10% 5% 0 5%;
 }
 
+/***********************
+EQUIPMENT
+***********************/
+
+section#equipment {
+	max-width: 100%;
+	padding: 5% 0 15% 0;
+}	
+
+section#equipment h2 {
+	margin: -5% 0 5% 0;	
+}	
+
+section#equipment a {
+	margin-left: 47%;
+}
+
+article.facilities h3 {
+	background-color: orange;
+	text-align: center;
+
+}
+
+article.facilities p {
+	padding: 5% 5% 0 5%;
+}
+
+article.facilities {
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	height: 700px;
+	margin: 0 5%;
+}
+
+
 
 
 
