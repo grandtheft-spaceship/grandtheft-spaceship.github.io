@@ -123,7 +123,48 @@ section#stranded a {
 	margin: 0 45%;
 }
 
+/***********************
+MISSION ROADMAP
+***********************/
 
+section#roadmap {
+	border: 1px solid red;
+	max-width: 90%;
+	margin: 0 5%;
+}
+
+section#roadmap h2 {
+	text-align: center;
+	margin: 1% 0 5% 0;
+}
+section#roadmap ul {
+	list-style-type: none;
+}
+
+section#roadmap li {
+	border: 1px solid purple;
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+	width: 300px;
+	height: 200px;
+	margin: 3%;
+}
+
+div.timebox {
+	border: 1px solid green;
+	background-color: ivory;
+	padding: 5%;
+}
+
+div.timebox h3 {
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+section#roadmap a {
+	margin: 0 45%;
+}
 
 
 
