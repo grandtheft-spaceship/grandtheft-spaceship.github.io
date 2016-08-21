@@ -34,6 +34,31 @@ a:hover {
 	color: red;
 }
 
+/***********************
+HEADER
+***********************/
+
+header {
+	max-width: 100%;
+	padding: 15% 0 15% 0;
+}
+
+header h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 4em;
+	font-weight: lighter;
+	text-align: center;
+	margin-top: -10%;
+	padding-bottom: 5%;
+}
+
+img[alt*="Ares 3 Mission Patch"] {
+	position: relative;
+	left: 38%;
+	height: 325px;
+}
+
+
 
 
 
