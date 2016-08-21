@@ -58,6 +58,42 @@ img[alt*="Ares 3 Mission Patch"] {
 	height: 325px;
 }
 
+/***********************
+MISSION OVERVIEW
+***********************/
+
+section#overview {
+	padding: 5% 5% 0 5%;
+}
+
+section#overview h2 {
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+section#overview p {
+	max-width: 80%;
+	margin: 0 10%; 
+	padding: 1% 0;
+}
+
+section#overview ul {
+	text-align: center;
+	list-style-type: none;
+}
+
+section#overview li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2%;
+}
+
+img[alt*="Ares 3 Crew"] {
+	position: relative;
+	left: 25%;
+	height: 400px;
+	margin-bottom: 5%;
+} 
 
 
 
