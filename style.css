@@ -75,6 +75,22 @@ img[alt*="NASA Meatball Logo"] {
 	font-size: .9em;
 }
 
+/***********************
+MISSION STATEMENT
+***********************/
+
+article#mission_statement {
+	max-width: 100%;
+	padding: 5% 1% 15% 1%;	
+	border: 1px solid black;
+}
+
+article#mission_statement {
+	width: 60%;
+	margin: 0 20%;
+}
+
+
 
 
 
