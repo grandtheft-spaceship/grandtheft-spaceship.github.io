@@ -95,6 +95,35 @@ img[alt*="Ares 3 Crew"] {
 	margin-bottom: 5%;
 } 
 
+section#overview a {
+	margin: 0 45%;
+}    
+
+/***********************
+STRANDED ON MARS
+***********************/   
+
+section#stranded {
+	max-width: 80%;
+	margin: 0 10%;
+	padding: 10% 0 15% 0;
+}          
+
+section#stranded h2 {
+	text-align: center;
+	padding-bottom: 10%;
+}                                                
+
+section#stranded article {
+	max-width: 60%;
+	margin: 0 20%;
+}
+
+section#stranded a {
+	margin: 0 45%;
+}
+
+
 
 
 
