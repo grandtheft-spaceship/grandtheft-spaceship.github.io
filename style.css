@@ -90,6 +90,37 @@ article#mission_statement {
 	margin: 0 20%;
 }
 
+/***********************
+MISSION GUIDES
+***********************/
+
+section#mission_guides {
+	max-width: 98%;
+	margin: 0 1%;
+	padding: 5% 0 15% 0;	
+}
+
+section#mission_guides h2 {
+	margin: -3% 0 5% 0;
+}
+
+article.mission {
+	border: 1px solid black;
+	width: 200px;
+	height: 320px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+section#mission_guides h3 {
+	background-color: orange;
+	text-align: center;
+}
+
+
+article.mission p {
+	padding: 10% 5% 0 5%;
+}
 
 
 
