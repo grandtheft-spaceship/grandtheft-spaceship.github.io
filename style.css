@@ -158,7 +158,30 @@ article.facilities {
 	margin: 0 5%;
 }
 
+/***********************
+CONTENT
+***********************/
 
+section#contact {
+	max-width: 80%;
+	margin: 0 10% 20% 10%;
+}
+
+section#contact h2 {
+	padding-bottom: 5%;
+}
+
+section#contact a {
+	margin: 0 45%;
+}
+
+fieldset {
+	text-align: center;
+}
+
+button {
+	margin-bottom: 2%;
+}
 
 
 
