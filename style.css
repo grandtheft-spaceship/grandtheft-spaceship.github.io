@@ -191,6 +191,16 @@ button {
 	margin-bottom: 2%;
 }
 
+/***********************
+RESPONSIVENESS
+***********************/
+
+@media screen and (max-width: 500px) {
+  * {
+    max-width: 80%;
+  }
+}
+
 
 
 
